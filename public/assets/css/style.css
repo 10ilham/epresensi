@@ -1,0 +1,86 @@
+.bg-blue {
+    background-color: #007bff !important;
+    /* Bootstrap primary blue color */
+    color: white;
+    /* Ensures the text color is readable */
+}
+
+.btn-grad {
+    background-image: linear-gradient(
+        to right,
+        #fc354c 0%,
+        #0abfbc 51%,
+        #fc354c 100%
+    );
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+
+.btn-grad-biru {
+    background-image: linear-gradient(
+        to right,
+        #fc00ff 0%,
+        #00dbde 51%,
+        #fc00ff 100%
+    );
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+
+.bg-cek {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(9, 113, 121, 1) 35%,
+        rgba(0, 212, 255, 1) 100%
+    );
+}
+
+.bg-cek2 {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(0, 0, 0, 1) 17%,
+        rgba(0, 15, 18, 1) 18%,
+        rgba(0, 0, 1, 1) 24%,
+        rgba(0, 0, 0, 1) 25%,
+        rgba(0, 23, 27, 1) 63%,
+        rgba(0, 212, 255, 1) 100%
+    );
+}
+
+.btn-hitam {
+    color: white;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(0, 0, 0, 1) 17%,
+        rgba(0, 15, 18, 1) 18%,
+        rgba(0, 0, 1, 1) 24%,
+        rgba(0, 0, 0, 1) 25%,
+        rgba(0, 23, 27, 1) 96%,
+        rgba(0, 212, 255, 1) 100%
+    );
+}
+
+.bg-grad-hijau-ungu {
+    background-image: linear-gradient(
+        to right,
+        #000428 0%,
+        #004e92 51%,
+        #000428 100%
+    );
+}
